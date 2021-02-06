@@ -32,14 +32,14 @@ poweroffdevice是一款基于OPNEWRT编译的关机源码插件。
  ```Brach
     # 下载源码
     
-    git clone https://github.com/sirpdboy/luci-theme-poweroffdevice package/luci-theme-poweroffdevice
+    git clone https://github.com/sirpdboy/luci-app-poweroffdevice package/luci-app-poweroffdevice
     
     make menuconfig
  ``` 
  ```Brach
     # 配置菜单
     make menuconfig
-	# 找到 LuCI -> Themes, 选择 luci-theme-poweroffdevice, 保存后退出。
+	# 找到 LuCI -> Applications, 选择 luci-app-poweroffdevice, 保存后退出。
  ``` 
  ```Brach 
     # 编译固件
@@ -58,9 +58,13 @@ poweroffdevice是一款基于OPNEWRT编译的关机源码插件。
 
 ## 说明 [![](https://img.shields.io/badge/-说明-F5F5F5.svg)](#说明-)
 
-源码来源：https://github.com/sirpdboy/luci-theme-poweroffdevice
+源码来源：https://github.com/sirpdboy/luci-app-poweroffdevice
 
 ### 你可以随意使用其中的源码，但请注明出处。
+
+
+你可以随意使用其中的源码，但请注明出处。
+============================
 
 # My other project
 网络速度测试 ：https://github.com/sirpdboy/NetSpeedTest
@@ -70,6 +74,8 @@ poweroffdevice是一款基于OPNEWRT编译的关机源码插件。
 关机功能插件 : https://github.com/sirpdboy/luci-app-poweroffdevice
 
 opentopd主题 : https://github.com/sirpdboy/luci-theme-opentopd
+
+opentoks 主题: https://github.com/sirpdboy/luci-theme-opentoks [仿KOOLSAHRE主题]
 
 btmob 主题: https://github.com/sirpdboy/luci-theme-btmob
 
